@@ -107,7 +107,6 @@ Example Authorization Header:
 Authorization: Bearer <access-token>
 ```
 
-If the access token expires, the client should use the refresh token to obtain a new access token by sending a request to the `/user/refresh-token` endpoint.
 
 ## Error Handling
 
@@ -123,10 +122,6 @@ Errors are returned in a JSON format with the following structure:
 
 Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - [Express.js](https://expressjs.com/)
@@ -135,4 +130,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Please customize the README file to include any additional information or instructions specific to your project.
